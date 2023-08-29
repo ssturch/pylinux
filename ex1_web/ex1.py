@@ -26,7 +26,7 @@ class TestWebAPI(unittest.TestCase):
 # Поиск созданного поста по полю "title"
         found_post = None
         for post in posts:
-            if post['title'] == post_data['title']:
+            if post['description'] == post_data['description']:
                 found_post = post
                 break
 
